@@ -1,5 +1,6 @@
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 token=os.getenv("fake_weather_api")
 
 if not token:
